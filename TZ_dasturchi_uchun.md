@@ -13,7 +13,7 @@ Assalomu alaykum! PMBA saytiga quyidagilarni qo'shishni so'raymiz. Tayyor namuna
 | Instagram | https://www.instagram.com/pmba.5/ |
 | YouTube | https://www.youtube.com/@PMBA5 |
 | LinkedIn | keyinroq beriladi |
-| Facebook | keyinroq beriladi |
+| Facebook | https://www.facebook.com/profile.php?id=61595647114393 |
 
 - Namuna kod: `index.html` → `<ul class="social" id="social">` + `assets/app.js` (ikonkalar inline SVG, tashqi kutubxonasiz).
 

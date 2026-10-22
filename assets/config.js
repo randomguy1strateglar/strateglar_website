@@ -5,7 +5,7 @@ window.PMBA5 = {
     telegram:  { label: 'Telegram',  url: 'https://t.me/pmba5' },
     instagram: { label: 'Instagram', url: 'https://www.instagram.com/pmba.5/' },
     linkedin:  { label: 'LinkedIn',  url: null },
-    facebook:  { label: 'Facebook',  url: null },
+    facebook:  { label: 'Facebook',  url: 'https://www.facebook.com/profile.php?id=61595647114393' },
     youtube:   { label: 'YouTube',   url: 'https://www.youtube.com/@PMBA5' }
   },
   telegramHandle: '@pmba5',
