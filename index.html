@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PMBA5 — IPMA standarti sodda o'zbek tilida</title>
+<meta name="description" content="Loyiha boshqaruvi bo'yicha IPMA darajalari, ICB 4.0, sertifikatlash bosqichlari, bepul webinar va Telegram kanal. STRATEGLAR PMBA5 o'quv loyihasi.">
+<meta property="og:title" content="PMBA5 — IPMA standarti sodda o'zbek tilida">
+<meta property="og:description" content="IPMA darajalari, ICB 4.0, sertifikatlash va bepul webinar — Telegram kanalimizda har kuni.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta name="theme-color" content="#0E2240">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#asosiy">Asosiy qismga o'tish</a>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="brand" href="./" aria-label="PMBA5 bosh sahifa">
+      <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M68 24H32V50H68V76H28"/><rect x="79" y="18" width="12" height="12" rx="2" transform="rotate(45 85 24)"/></svg>
+      <span class="brand__name">STRATEGLAR</span><span class="brand__tag">PMBA5</span>
+    </a>
+    <nav class="nav" aria-label="Asosiy menyu">
+      <a href="#darajalar">Darajalar</a>
+      <a href="#yol">Sertifikat yo'li</a>
+      <a href="#tadbirlar">Tadbirlar</a>
+      <a href="bilim-markazi/">Bilim markazi</a>
+    </nav>
+    <a class="btn btn--sm" href="https://t.me/pmba5" target="_blank" rel="noopener" data-social="telegram">Telegram'ga obuna</a>
+  </div>
+</header>
+
+<main id="asosiy">
+  <!-- HERO: the page as a Gantt chart -->
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="hero__title">IPMA standarti — sodda o'zbek tilida</h1>
+      <p class="hero__lead">Loyiha boshqaruvi bo'yicha xalqaro darajalar, ICB 4.0 kompetensiyalari va sertifikatlash yo'li. Quyidagi jadval — shu sahifaning rejasi: istalgan qatorni bosing.</p>
+
+      <div class="gantt" id="gantt" role="list" aria-label="Sahifa rejasi Gantt jadvali ko'rinishida">
+        <div class="gantt__axis" aria-hidden="true"></div>
+        <div class="gantt__rows"></div>
+        <div class="gantt__today" aria-hidden="true"><span>bugun</span></div>
+      </div>
+      <p class="gantt__note">Jadval 21-oktabrdan 7-noyabrgacha bo'lgan loyiha davrini ko'rsatadi. Olmos belgilari — tadbirlar.</p>
+    </div>
+  </section>
+
+  <!-- 1. Levels -->
+  <section class="sec" id="darajalar" aria-labelledby="h-darajalar">
+    <div class="wrap grid2">
+      <div>
+        <h2 id="h-darajalar">To'rt daraja, bitta standart</h2>
+        <p class="muted">IPMA 4-L-C tizimida har bir daraja tajriba va mas'uliyat ko'lamiga qarab beriladi. Darajani tanlang.</p>
+        <div class="levels" role="tablist" aria-label="IPMA darajalari">
+          <button role="tab" aria-selected="true"  aria-controls="lv-panel" data-lv="D">D</button>
+          <button role="tab" aria-selected="false" aria-controls="lv-panel" data-lv="C" tabindex="-1">C</button>
+          <button role="tab" aria-selected="false" aria-controls="lv-panel" data-lv="B" tabindex="-1">B</button>
+          <button role="tab" aria-selected="false" aria-controls="lv-panel" data-lv="A" tabindex="-1">A</button>
+        </div>
+      </div>
+      <article class="lvpanel" id="lv-panel" role="tabpanel" aria-live="polite">
+        <p class="lvpanel__level" data-f="code">Level D</p>
+        <h3 data-f="title">Project Management Associate</h3>
+        <dl class="facts">
+          <div><dt>Tajriba</dt><dd data-f="exp">Shart emas</dd></div>
+          <div><dt>Kimlar uchun</dt><dd data-f="who">PMO koordinatsiyasi, yosh mutaxassislar</dd></div>
+          <div><dt>Baholash</dt><dd data-f="exam">120 savollik kompyuter testi</dd></div>
+        </dl>
+        <p class="lvpanel__src">Manba: pbma.uz — IPMA sertifikatlash sahifasi</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2. ICB 4.0 -->
+  <section class="sec sec--mist" id="icb" aria-labelledby="h-icb">
+    <div class="wrap">
+      <h2 id="h-icb">ICB 4.0: menejerning 29 kompetensiyasi</h2>
+      <p class="muted narrow">Har bir katak — bitta kompetensiya. Ustiga olib boring yoki Tab bilan o'ting: nomi pastda ko'rinadi.</p>
+      <div class="icb">
+        <div class="icb__group" data-g="p"><h3>Istiqbol <span>5</span></h3><div class="icb__cells"></div></div>
+        <div class="icb__group" data-g="o"><h3>Odamlar <span>10</span></h3><div class="icb__cells"></div></div>
+        <div class="icb__group" data-g="a"><h3>Amaliyot <span>14</span></h3><div class="icb__cells"></div></div>
+      </div>
+      <p class="icb__label" id="icb-label" aria-live="polite">Barcha 4 daraja shu 29 element asosida baholanadi.</p>
+    </div>
+  </section>
+
+  <!-- 3. Certification path (a real sequence) -->
+  <section class="sec" id="yol" aria-labelledby="h-yol">
+    <div class="wrap">
+      <h2 id="h-yol">Sertifikatgacha 5 bosqich</h2>
+      <ol class="path">
+        <li><b>Ariza va CV</b><span>Onlayn forma, CV va oldingi loyihalar ro'yxati</span><em>1–2 kun</em></li>
+        <li><b>Hujjatlar tahlili</b><span>Portfolio va loyihalar murakkabligi ko'rib chiqiladi</span><em>5–7 kun</em></li>
+        <li><b>Yozma imtihon</b><span>Nazariya, keyslar va ICB 4.0 standarti</span><em>3 soat</em></li>
+        <li><b>Assessor bilan intervyu</b><span>Ikki xalqaro sertifikatli assessor bilan amaliy keyslar</span><em>60–90 daqiqa</em></li>
+        <li><b>Sertifikat va reyestr</b><span>IPMA rasmiy reyestriga kiritiladi</span><em>5 yil amal qiladi</em></li>
+      </ol>
+      <p class="muted small">Kursni tugatish sertifikat bermaydi — sertifikat faqat baholashdan muvaffaqiyatli o'tgandan keyin beriladi.</p>
+    </div>
+  </section>
+
+  <!-- 4. Events -->
+  <section class="sec sec--navy" id="tadbirlar" aria-labelledby="h-tadbirlar">
+    <div class="wrap">
+      <h2 id="h-tadbirlar">Yaqin tadbirlar</h2>
+      <div class="events">
+        <article class="event">
+          <svg class="event__dia" viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="4" width="12" height="12" rx="2" transform="rotate(45 10 10)"/></svg>
+          <div class="event__body">
+            <h3>Bepul webinar: IPMA sertifikatlash, Level A–D</h3>
+            <p>3-noyabr, seshanba, 19:00 (Toshkent), onlayn — Zoom</p>
+            <p class="event__who">Spiker: Sevara Mirvaliyeva, IPMA Level C assessori</p>
+          </div>
+          <div class="event__cd" data-countdown="2026-11-03T19:00:00+05:00" aria-label="Webinargacha qolgan vaqt"></div>
+        </article>
+        <article class="event">
+          <svg class="event__dia" viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="4" width="12" height="12" rx="2" transform="rotate(45 10 10)"/></svg>
+          <div class="event__body">
+            <h3>Rahbar bilan ochiq savol-javob</h3>
+            <p>6-noyabr, juma, 19:00 (Toshkent), Telegram jonli efir</p>
+            <p class="event__who">Sohibnazar Tursunpulatov, PMBA direktori</p>
+          </div>
+          <div class="event__cd" data-countdown="2026-11-06T19:00:00+05:00" aria-label="Savol-javobgacha qolgan vaqt"></div>
+        </article>
+      </div>
+      <p class="events__cta">Ro'yxat havolasi va eslatmalar Telegram kanalda: <a href="https://t.me/pmba5" target="_blank" rel="noopener" data-social="telegram">@pmba5</a></p>
+    </div>
+  </section>
+
+  <!-- 5. Knowledge center teaser + Telegram subscribe -->
+  <section class="sec" id="bilim" aria-labelledby="h-bilim">
+    <div class="wrap grid2 grid2--top">
+      <div>
+        <h2 id="h-bilim">Bilim markazi</h2>
+        <p class="muted">Qisqa videolar, kartochkalar va savol-javoblar — IPMA'ni tushunish uchun kerak bo'lgan hammasi bir joyda.</p>
+        <div class="posts">
+          <figure><img src="assets/img/STG-39_1_IPMA-4LC.jpg" alt="Telegram posti: IPMA'da 4 daraja, bitta standart" width="960" height="540" loading="lazy"><figcaption>IPMA: 4 daraja, bitta standart</figcaption></figure>
+          <figure><img src="assets/img/STG-40_1_ICB4.jpg" alt="Telegram posti: ICB 4.0 kompetensiya xaritasi" width="960" height="540" loading="lazy"><figcaption>ICB 4.0 kompetensiya xaritasi</figcaption></figure>
+          <figure><img src="assets/img/STG-41_1_FAQ.jpg" alt="Telegram posti: kursni tugatsam avtomatik sertifikat olamanmi" width="960" height="540" loading="lazy"><figcaption>Kurs tugadi — sertifikat avtomatikmi?</figcaption></figure>
+        </div>
+        <a class="btn btn--ghost" href="bilim-markazi/">Bilim markaziga o'tish</a>
+      </div>
+      <aside class="tg" aria-labelledby="h-tg">
+        <svg class="tg__plane" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 3.5 2.8 10.7c-.9.4-.9 1.6 0 1.9l4.6 1.5 1.8 5.6c.3.8 1.3 1 1.9.4l2.6-2.5 4.7 3.5c.7.5 1.7.1 1.9-.7L23 4.9c.2-1-.6-1.8-1.5-1.4z"/><path d="m7.4 14.1 10.4-7.4-8 8.9"/></svg>
+        <h3 id="h-tg">Yangi materiallarni Telegram'da oling</h3>
+        <p>Har kuni bitta foydali post, PM-quiz va tadbir eslatmalari. Reklama yo'q.</p>
+        <a class="btn" href="https://t.me/pmba5" target="_blank" rel="noopener" data-social="telegram">Obuna bo'lish</a>
+        <p class="tg__handle">t.me/pmba5</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div>
+      <a class="brand brand--foot" href="./" aria-label="PMBA5 bosh sahifa">
+        <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M68 24H32V50H68V76H28"/><rect x="79" y="18" width="12" height="12" rx="2" transform="rotate(45 85 24)"/></svg>
+        <span class="brand__name">STRATEGLAR</span><span class="brand__tag">PMBA5</span>
+      </a>
+      <p class="foot__note">PMBA SMM musobaqasi doirasidagi o'quv loyiha, rasmiy sahifa emas. Rasmiy sayt: <a href="https://pbma.uz/" target="_blank" rel="noopener">pbma.uz</a></p>
+    </div>
+    <nav aria-label="Ijtimoiy tarmoqlar"><ul class="social" id="social"></ul></nav>
+  </div>
+</footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
